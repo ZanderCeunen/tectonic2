@@ -2,7 +2,7 @@
 
 ## Verification Commands
 
-Before making changes or after completing features, run these commands to verify the codebase:
+Before making changes or after completing features, don't run any of these commands: 
 
 ### Quick Check
 ```bash
@@ -28,14 +28,13 @@ cargo test
 ```bash
 cargo build
 ```
+## The user will do these on their own! 
+
 
 ## Development Workflow
 
 1. Make changes to the codebase
-2. Run `cargo check` to verify compilation
-3. Run `cargo clippy` to catch common issues
-4. Run `cargo test` to ensure tests pass
-5. Run `cargo fmt` to format code
+2. The user will run the verification commands
 
 ## Database Management
 
@@ -61,3 +60,6 @@ cargo build
 - `src/routes.rs` - Route definitions
 - `Cargo.toml` - Dependencies
 - `migrations/` - SQL migrations
+
+## Work mapping agent to agent
+Edit this file as you are working to inform the other agents working on this. 
